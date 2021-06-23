@@ -1,8 +1,9 @@
 'use strict';
 let score = 0;
 let name1 = prompt('What is your name?')
-alert('Welcome ' + name1)
-console.log(name1)
+function seventh(name1){alert('Welcome ' + name1)
+console.log(name1)}
+seventh(name1);
 
  let x = confirm('Get ready to know who I\'m')
 console.log(x);
