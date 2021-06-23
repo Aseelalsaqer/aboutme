@@ -79,32 +79,29 @@ while (i < 4) {
 
     }
 }
+let letter = ['A', 'S', 'E', 'L']
+let correct = false;
+for (let k = 0; k < 6; k++) {
+    let v = prompt('Guess a letter in my name', 'Use Capital Letter');
 
-let letter = prompt('Guess a letter in my name', 'Use Capital Letter');
 
-
-let f = 0;
-
-while (f < 6) {
-    if (letter == 'A' || letter == 'S' || letter == 'E' || letter == 'L') {
-        alert('Good Job');
-        score++
+    for (let m = 0; m < letter.length; m++)
+        if ( v == letter[m]) {
+            alert('Good Job');
+            score++;
+            correct = true
+            k = 7;
+            break;
+        }
+    if (correct) {
         break;
-
-    } else {
-        letter = prompt('Try another')
     }
-    f++;
-
-
 
 }
 alert('My Name is : A S E E L');
 
 
-alert('Thank you For your time' +  name1  + ',out of 3 your score is:' + score );
-
-
+alert('Thank you For your time' + name1 + ',out of 3 your score is:' + score);
 
 
 
