@@ -1,11 +1,57 @@
 h2 ,h1 ,h3 {background-color: slategray ;
     
 }
-h2{ margin: 40px;
-
+h2{ 
+    margin: 40px;
 }
-h3 {margin: 30px;
-    
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 2em;
+    box-shadow: 0px 0px 10px 0px; 
+}
+
+.hFlex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.vFlex {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.item {
+    /* height: 150px; */
+    text-align: center;
+    align-content: center;
+    flex: 1 auto;
+}
+
+.item img {
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    align-self: baseline;
+    padding: 20px;
+}
+
+.top-links a:visited, .top-links a{
+    color: black;
+    padding: 10px;
+}
+
+h3 {
+    padding-left: 15px;
+    padding-top: 5px;
+    height: 25px;
+    color: rgb(30, 40, 49);
 }
 p {
    
@@ -13,5 +59,10 @@ p {
     margin-right: 10px;
     
 }
-
-
+footer {
+    text-align: center;
+    background-color: slategray;
+    color: snow;
+    height: 30px;
+    padding-top: 10px;
+}

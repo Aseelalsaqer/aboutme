@@ -60,7 +60,7 @@ let i = 0;
 
 
 
-function fifth(i){while (i < 4) {
+function fifth(i){while (i < 3) {
     if (tall == '160-170') {
         alert('That\'s right');
         score++;
